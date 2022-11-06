@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -20,4 +24,14 @@ code {
 
 .font-oswald {
   font-family: 'Oswald';
+}
+
+.transition-contact:hover {
+  background-color: rgb(94 234 212);
+  color: black;
+  transition-duration: 1s;
+}
+
+.one-hundred-percent {
+  width: 98.8vw;
 }
