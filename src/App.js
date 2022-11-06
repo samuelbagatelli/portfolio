@@ -3,6 +3,7 @@ import SimpleBar from 'simplebar-react';
 import 'simplebar-react/dist/simplebar.min.css';
 import Header from './components/Header';
 import Presentation from './components/Presentation';
+import Portfolio from './components/Portfolio';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <main>
         <Header />
         <Presentation />
+        <Portfolio />
       </main>
     </SimpleBar>
   );
