@@ -6,6 +6,10 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -23,6 +27,27 @@ code {
     monospace;
 }
 
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+li {
+  width: fit-content;
+  margin: auto;
+  padding-bottom: 8rem;
+}
+
+li:hover {
+  transform: scale(1.1);
+  transition: 300ms;
+}
+
+li:not(:hover) {
+  transition: 300ms;
+}
+
 .font-oswald {
   font-family: 'Oswald';
 }
@@ -35,4 +60,20 @@ code {
 
 .one-hundred-percent {
   width: 97vw;
+}
+
+.left-95 {
+  left: 95%;
+}
+
+.mx-1\/2  {
+  margin: 0 25%;
+}
+
+.text-red {
+  color: red;
+}
+
+.bg-red {
+  background-color: red;
 }

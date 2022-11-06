@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Presentation() {
   return (
-    <section className="py-20 pt-28">
+    <section className="py-20 pt-28" id="home">
       <h1 className="font-oswald font-bold text-7xl pb-12">
         Olá,
         <br />
