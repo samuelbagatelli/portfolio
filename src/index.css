@@ -77,3 +77,38 @@ li:not(:hover) {
 .bg-red {
   background-color: red;
 }
+
+.bottom-93 {
+  bottom: 93%
+}
+
+/* Animação fade in fade out */
+
+.modal-animate-opacity {
+  animation: opac 0.8s
+}
+
+@keyframes opac {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.modal-animate-show {
+  animation: show 0.8s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes show {
+  0% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+}

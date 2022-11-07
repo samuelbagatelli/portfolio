@@ -22,7 +22,7 @@ export default function Portfolio() {
           <li>
             <MicroModal trigger={(open) => <img src={StarwarsLogo} alt="Logo gerada do projeto store manager" className="w-80 rounded cursor-pointer" onClick={open} />}>
               {(close) => (
-                <div className="relative block">
+                <div className="relative block modal-animate-opacity">
                   <h3 className="font-oswald text-black text-2xl left-0 pb-8">
                     StarWars Planet Search
                   </h3>
@@ -32,7 +32,7 @@ export default function Portfolio() {
                   <a href="https://github.com/samuelbagatelli/starwars-planets-search" target="_blank" className="bg-black rounded p-4 mx-1/2 text-xl font-oswald" rel="noreferrer">
                     Acesse o repositório!
                   </a>
-                  <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-3/4 left-95" />
+                  <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-93 left-95" />
                 </div>
               )}
             </MicroModal>
@@ -40,7 +40,7 @@ export default function Portfolio() {
           <li>
             <MicroModal trigger={(open) => <img src={RecipesApp} alt="Logo gerada do projeto store manager" className="w-80 rounded cursor-pointer" onClick={open} />}>
               {(close) => (
-                <div className="relative block">
+                <div className="relative block modal-animate-opacity">
                   <h3 className="font-oswald text-red text-2xl left-0 pb-8">
                     Recipes App
                   </h3>
@@ -52,7 +52,7 @@ export default function Portfolio() {
                   <a href="https://github.com/samuelbagatelli/recipes-app" target="_blank" className="bg-red rounded p-4 mx-1/2 text-xl font-oswald" rel="noreferrer">
                     Acesse o repositório!
                   </a>
-                  <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-3/4 left-95" />
+                  <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-93 left-95" />
                 </div>
               )}
             </MicroModal>
@@ -60,7 +60,7 @@ export default function Portfolio() {
           <li>
             <MicroModal trigger={(open) => <img src={BlogsApiLogo} alt="Logo gerada do projeto store manager" className="w-80 rounded cursor-pointer" onClick={open} />}>
               {(close) => (
-                <div className="relative block">
+                <div className="relative block modal-animate-opacity">
                   <h3 className="font-oswald text-teal-400 text-2xl left-0 pb-8">
                     Blogs API
                   </h3>
@@ -72,7 +72,7 @@ export default function Portfolio() {
                   <a href="https://github.com/samuelbagatelli/store-manager" target="_blank" className="bg-teal-400 rounded p-4 mx-1/2 text-xl font-oswald" rel="noreferrer">
                     Acesse o repositório!
                   </a>
-                  <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-3/4 left-95" />
+                  <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-93 left-95" />
                 </div>
               )}
             </MicroModal>
@@ -80,7 +80,7 @@ export default function Portfolio() {
           <li>
             <MicroModal trigger={(open) => <img src={StoreManagerLogo} alt="Logo gerada do projeto store manager" className="w-80 rounded cursor-pointer" onClick={open} />}>
               {(close) => (
-                <div className="relative block">
+                <div className="relative block modal-animate-opacity">
                   <h3 className="font-oswald text-orange-400 text-2xl left-0 pb-8">
                     Store Manager
                   </h3>
@@ -92,7 +92,7 @@ export default function Portfolio() {
                   <a href="https://github.com/samuelbagatelli/store-manager" target="_blank" className="bg-orange-400 rounded p-4 mx-1/2 text-xl font-oswald" rel="noreferrer">
                     Acesse o repositório!
                   </a>
-                  <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-3/4 left-95" />
+                  <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-93 left-95" />
                 </div>
               )}
             </MicroModal>
