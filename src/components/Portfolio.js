@@ -13,7 +13,7 @@ export default function Portfolio() {
         Meus Projetos
       </h2>
       <p className="w-7/12 ml-4 pb-20">
-        Esses são alguns dos projetos que eu fiz estando na trybe, e adaptações pessoais dos mesmos. Atualmente estou aprendendo TypeScript e MongoDB!
+        Esses são alguns dos projetos que eu fiz estando na trybe, e adaptações pessoais dos mesmos. Atualmente estou aprendendo TypeScript, PostgreSQL e MongoDB!
         <br />
         Interessado em ver eles funcionando, sinta-se a vontade para clicar em qualquer um!
       </p>

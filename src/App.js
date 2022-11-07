@@ -4,6 +4,7 @@ import 'simplebar-react/dist/simplebar.min.css';
 import Header from './components/Header';
 import Presentation from './components/Presentation';
 import Portfolio from './components/Portfolio';
+import About from './components/About';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Header />
         <Presentation />
         <Portfolio />
+        <About />
       </main>
     </SimpleBar>
   );
