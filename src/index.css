@@ -103,3 +103,22 @@ textarea {
 .for-all-a a {
   margin-right: 4rem;
 }
+
+.full-left {
+  margin-left: 65rem;
+}
+
+.hamb-menu {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.hamb-menu:hover {
+  background-color: rgb(229 229 229);
+  color: black;
+  border-radius: 0.25rem;
+}
+
+.correction {
+  padding: .4rem;
+}
