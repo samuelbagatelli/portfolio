@@ -15,7 +15,7 @@ export default function About() {
           <br />
         Sou apaixonado por aprender, gosto muito de ler e passar um bom tempo com as pessoas e descobrir novas culturas e formas de pensar.
         </p>
-        <img src={IAmHere} alt="Via láctea com símbolo de localização" className="w-96 ml-36 pb-9" />
+        <img src={IAmHere} alt="Via láctea com símbolo de localização" className="w-96 ml-36 pb-9 mr-5" />
       </div>
     </section>
   );

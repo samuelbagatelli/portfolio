@@ -48,14 +48,30 @@ li:not(:hover) {
   transition: 300ms;
 }
 
+input {
+  margin: .9rem 0;
+  border-radius: 0.75rem;
+  padding: 0.8rem;
+}
+
+textarea {
+  margin-top: .9rem;
+  border-radius: 0.75rem;
+  padding: 0.7rem;
+}
+
 .font-oswald {
   font-family: 'Oswald';
 }
 
+.transition-contact {
+  transition: .3s ease-in;
+  z-index: 1;
+}
+
 .transition-contact:hover {
-  background-color: rgb(94 234 212);
+  background-color: aqua;
   color: black;
-  transition-duration: 1s;
 }
 
 .one-hundred-percent {
@@ -82,33 +98,6 @@ li:not(:hover) {
   bottom: 93%
 }
 
-/* Animação fade in fade out */
-
-.modal-animate-opacity {
-  animation: opac 0.8s
-}
-
-@keyframes opac {
-  from {
-    opacity: 0
-  }
-
-  to {
-    opacity: 1
-  }
-}
-
-.modal-animate-show {
-  animation: show 0.8s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes show {
-  0% {
-    opacity: 1
-  }
-
-  100% {
-    opacity: 0
-  }
+.for-all-a a {
+  margin-right: 4rem;
 }

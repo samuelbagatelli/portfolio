@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Presentation from './components/Presentation';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
+import Contact from './components/Contact';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Presentation />
         <Portfolio />
         <About />
+        <Contact />
       </main>
     </SimpleBar>
   );

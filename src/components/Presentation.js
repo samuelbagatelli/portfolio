@@ -12,9 +12,11 @@ export default function Presentation() {
         <br />
         FullStack
       </h1>
-      <button className="border border-teal-300 px-8 py-2 text-teal-300 transition-contact">
-        Entre em contato!
-      </button>
+      <a href="#contact">
+        <button className="border border-teal-300 px-8 py-2 text-teal-300 transition hover:bg-teal-300 hover:text-black">
+          Entre em contato!
+        </button>
+      </a>
     </section>
   );
 }
