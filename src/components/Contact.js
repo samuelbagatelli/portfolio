@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BsLinkedin, BsWhatsapp } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
 
 export default function About() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+
+  console.log(name);
+
   return (
     <section>
       <h2 className="text-teal-300 font-oswald text-6xl pb-8" id="contact">
@@ -27,25 +34,33 @@ export default function About() {
         <input 
           type="text" 
           placeholder="Nome" 
-          name="name" 
+          name="name"
+          value={name}
+          onChange={({ target }) => setName(target.value)}
           required
         />
         <input 
           type="email" 
           placeholder="Email" 
           name="email" 
+          value={email}
+          onChange={({ target }) => setEmail(target.value)}
           required
         />
         <input 
           type="text" 
           placeholder="Assunto" 
-          name="_subject" 
+          name="subject"
+          value={subject}
+          onChange={({ target }) => setSubject(target.value)}
           required
         />
         <textarea 
           name="message" 
           cols="30" rows="10" 
-          placeholder="Conteúdo" 
+          placeholder="Conteúdo"
+          value={message}
+          onChange={({ target }) => setMessage(target.value)}
           required
         />
         <button 
