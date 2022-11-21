@@ -27,7 +27,7 @@ export default function About() {
         </a>
       </div>
       <form 
-        action="https://formsubmit.co/contato.samuelbagatelli@gmail.com" 
+        action="https://formsubmit.co/65815e7a0ba4cad7d14c7c4085345374" 
         method="POST"
         className="flex flex-col items-center"
       >
