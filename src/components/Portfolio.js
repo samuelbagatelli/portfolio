@@ -29,9 +29,14 @@ export default function Portfolio() {
                   <p className="font-oswald text-black pb-14">
                     Um projeto feito com ReactJS utilizando ContextAPI e Hooks de uma aplicação para procurar planetas do universo de Star Wars, utilizando filtros e validações!
                   </p>
-                  <a href="https://github.com/samuelbagatelli/starwars-planets-search" target="_blank" className="bg-black rounded p-4 mx-1/2 text-xl font-oswald" rel="noreferrer">
+                  <div className="container">
+                    <a href="https://github.com/samuelbagatelli/starwars-planets-search" target="_blank" className="box bg-black rounded" rel="noreferrer">
                     Acesse o repositório!
-                  </a>
+                    </a>
+                    <a href="https://starwars-planets-search-beta.vercel.app/" target="_blank" className="box bg-black rounded" rel="noreferrer">
+                    Acesse o site!
+                    </a>
+                  </div>
                   <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-93 left-95" />
                 </div>
               )}
@@ -49,9 +54,11 @@ export default function Portfolio() {
                     <br />
                     Nesse projeto utilizamos os modelos de produção Scrum e metodologias ágeis. O objetivo era produzir uma aplicação responsiva e de uso intuitivo de um aplicativo de receitas.
                   </p>
-                  <a href="https://github.com/samuelbagatelli/recipes-app" target="_blank" className="bg-red rounded p-4 mx-1/2 text-xl font-oswald" rel="noreferrer">
+                  <div className="container">
+                    <a href="https://github.com/samuelbagatelli/recipes-app" target="_blank" className="box bg-red rounded" rel="noreferrer">
                     Acesse o repositório!
-                  </a>
+                    </a>
+                  </div>
                   <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-93 left-95" />
                 </div>
               )}
@@ -69,9 +76,11 @@ export default function Portfolio() {
                     <br />
                     O banco de dados utilizado foi MySQL e a API foi construida utilizando Node.js e Express.js.
                   </p>
-                  <a href="https://github.com/samuelbagatelli/store-manager" target="_blank" className="bg-teal-400 rounded p-4 mx-1/2 text-xl font-oswald" rel="noreferrer">
+                  <div className="container">
+                    <a href="https://github.com/samuelbagatelli/blogs-api" target="_blank" className="bg-teal-400 rounded box" rel="noreferrer">
                     Acesse o repositório!
-                  </a>
+                    </a>
+                  </div>
                   <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-93 left-95" />
                 </div>
               )}
@@ -89,9 +98,11 @@ export default function Portfolio() {
                     <br />
                     O banco de dados utilizado foi MySQL e a biblioteca de comunicação entre JavaScript e o banco de dados foi a mysql2.
                   </p>
-                  <a href="https://github.com/samuelbagatelli/store-manager" target="_blank" className="bg-orange-400 rounded p-4 mx-1/2 text-xl font-oswald" rel="noreferrer">
+                  <div className="container">
+                    <a href="https://github.com/samuelbagatelli/store-manager" target="_blank" className="bg-orange-400 rounded box" rel="noreferrer">
                     Acesse o repositório!
-                  </a>
+                    </a>
+                  </div>
                   <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-93 left-95" />
                 </div>
               )}

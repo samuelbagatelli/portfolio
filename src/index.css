@@ -84,7 +84,7 @@ textarea {
   left: 95%;
 }
 
-.mx-1\/2  {
+.mx-1\/2 {
   margin: 0 25%;
 }
 
@@ -121,4 +121,14 @@ textarea {
 
 .correction {
   padding: .4rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  padding: .5rem;
+  font-weight: bold;
 }
