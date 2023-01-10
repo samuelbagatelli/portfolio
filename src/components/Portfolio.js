@@ -4,6 +4,7 @@ import BlogsApiLogo from '../images/blogs api-logos.jpeg';
 import StoreManagerLogo from '../images/store manager-logos.jpeg';
 import StarwarsLogo from '../images/starwars planet search-logos.jpeg';
 import RecipesApp from '../images/recipes app.jpg';
+import FutebolClubeLogo from '../images/futebol-clube-logo.jpeg';
 import MicroModal from 'react-micro-modal';
 
 export default function Portfolio() {
@@ -101,6 +102,30 @@ export default function Portfolio() {
                   <div className="container">
                     <a href="https://github.com/samuelbagatelli/store-manager" target="_blank" className="bg-orange-400 rounded box" rel="noreferrer">
                     Acesse o repositório!
+                    </a>
+                  </div>
+                  <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-93 left-95" />
+                </div>
+              )}
+            </MicroModal>
+          </li>
+          <li>
+            <MicroModal trigger={(open) => <img src={FutebolClubeLogo} alt="Logo gerada do projeto store manager" className="w-80 rounded cursor-pointer" onClick={open} />}>
+              {(close) => (
+                <div className="relative block modal-animate-opacity">
+                  <h3 className="font-oswald text-lime-600 text-2xl left-0 pb-8">
+                    Projeto Futebol Clube
+                  </h3>
+                  <p className="font-oswald text-black pb-14">
+                    Um projeto completo, que une o Backend, Frontend e banco de dados, as tecnologias utilizadas foram, Node.js, Sequelize, TypeScript e outras.
+                    <br />
+                    Ainda há algumas coisas há terminar no projeto, mas está completamente disponível para a utilização!
+                  </p>
+                  <div className="container">
+                    <a href="https://github.com/samuelbagatelli/trybe-futebol-clube" target="_blank" className="bg-lime-600 rounded box" rel="noreferrer">
+                      Acesse o repositório!
+                    </a><a href="https://frontend-production-7985.up.railway.app/" target="_blank" className="box bg-lime-600 rounded" rel="noreferrer">
+                      Acesse o site!
                     </a>
                   </div>
                   <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-93 left-95" />
