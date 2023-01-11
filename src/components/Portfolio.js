@@ -99,11 +99,16 @@ export default function Portfolio() {
                   <p className="font-oswald text-black pb-14">
                     Um projeto de construção de uma API utilizando o Sequelize para realizar a comunicação entre o banco de dados e a aplicação.
                     <br />
-                    O banco de dados utilizado foi MySQL e a API foi construida utilizando Node.js e Express.js.
+                    O banco de dados utilizado foi MySQL e a API foi construida utilizando Node.js e Express.js. A documentação da API foi feita utilizando o Swagger.
+                    <br />
+                    Deixo aqui os créditos pela hospedagem da documentação ao <a href="https://github.com/peterfritz/" target="_blank" rel="noreferrer" className="text-teal-400">@peterfritz</a>
                   </p>
                   <div className="container">
                     <a href="https://github.com/samuelbagatelli/blogs-api" target="_blank" className="bg-teal-400 rounded box" rel="noreferrer">
                     Acesse o repositório!
+                    </a>
+                    <a href="https://swaggerviewer.ptr.red/spec/aHR0cHM6Ly9naXRodWIuY29tL3NhbXVlbGJhZ2F0ZWxsaS9ibG9ncy1hcGkvcmF3L21haW4vc3JjL3N3YWdnZXIuanNvbg%3D%3D" target="_blank" className="box bg-teal-400 rounded" rel="noreferrer">
+                      Acesse o site!
                     </a>
                   </div>
                   <GrFormClose onClick={close} className="cursor-pointer text-3xl teste absolute bottom-93 left-95" />
